@@ -1,0 +1,18 @@
+#http://localhost:3010/api/v1/
+
+#http://localhost:3010/api/v1/menu/67394be61d5b9d1428d3c315
+
+#http://localhost:3010/api/v1/events
+
+#http://localhost:3010/api/v1/events/673bb6ec4b4770719e24c4d4
+
+@url = http://localhost:3010/api/v1
+POST {{url}}/events
+Content-Type: application/json
+
+{
+    "name": "Food Truck Karaoke",
+    "location": "Packer Stadium",
+    "date": "02/14/2025 ",
+    "time": "1:00 pm"
+}
